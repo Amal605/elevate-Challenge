@@ -12,7 +12,9 @@ function App() {
       {index:true, element:<Home></Home>},
       {path:'/categories',element:<Categories></Categories>},
       {path:'*',element:<NotFound></NotFound>},
-    ]}])
+    ]}],{
+      basename: '/elevate-Challenge/'
+    })
 
   return (
     <>
